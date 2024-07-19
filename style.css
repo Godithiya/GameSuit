@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    font-family: "Bona Nova SC", serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #12966e, #210f88)
+}
+
+#app {
+    height: 100 vh;
+    padding: 20px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    background-color: bisque;
+    box-shadow: 0 0 5px blanchedalmond;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 25px;
+}
+
+
+.option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    background-color: bisque;
+    box-shadow: 0 0 5px blanchedalmond;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(105%);
+}
